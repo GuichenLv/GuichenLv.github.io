@@ -6,17 +6,26 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://littledream.top">
-  <title>tags | Hexo</title>
+  <title>Hexo + Github Page 搭建技术博客教程系列(二) 之 yilia 主题配置 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://littledream.top/tags/index.html">
+  <meta name="description" content="在上一篇博客中，我们介绍了如何搭建自己的博客。今天我们接着说说如何进行博客的主题 (theme) 配置来美化自己的博客页面。首先可以在 hexo 官网主题页 寻找你喜欢的个性主题，根据官网使用文档说明修改相应的配置，达到自己想要的效果，例如设置字体、开启打赏功能、添加评论系统、数据统计等功能。设置不同的主题，博客的页面外观风格完全不同。我们推荐的主题是 litten 老哥制作的 yilia 主题，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo + Github Page 搭建技术博客教程系列(二) 之 yilia 主题配置">
+<meta property="og:url" content="http://littledream.top/2020/08/27/myHexo2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="在上一篇博客中，我们介绍了如何搭建自己的博客。今天我们接着说说如何进行博客的主题 (theme) 配置来美化自己的博客页面。首先可以在 hexo 官网主题页 寻找你喜欢的个性主题，根据官网使用文档说明修改相应的配置，达到自己想要的效果，例如设置字体、开启打赏功能、添加评论系统、数据统计等功能。设置不同的主题，博客的页面外观风格完全不同。我们推荐的主题是 litten 老哥制作的 yilia 主题，">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-26T12:10:24.000Z">
-<meta property="article:modified_time" content="2020-08-26T12:16:14.294Z">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/21989843-894fd5672afae4fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/21989843-312d2153573cfc0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/21989843-97afc980c96af234.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="article:published_time" content="2020-08-27T11:30:58.000Z">
+<meta property="article:modified_time" content="2020-08-27T11:33:11.946Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="tech">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="yilia">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/21989843-894fd5672afae4fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -182,20 +191,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-myHexo2" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      tags
+      Hexo + Github Page 搭建技术博客教程系列(二) 之 yilia 主题配置
     </h1>
   
 
         
-        <a href="/tags/index.html" class="archive-article-date">
-  	<time datetime="2020-08-26T12:10:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-26</time>
+        <a href="/2020/08/27/myHexo2/" class="archive-article-date">
+  	<time datetime="2020-08-27T11:30:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-27</time>
 </a>
 
         <!-- 需要添加的位置 -->
@@ -207,7 +216,7 @@
       <i class="fa fa-keyboard-o"></i>
       <span class="post-meta-item-text" style="font-size: 14px;color: grey">  字数统计:</span>
       <!--这里样式可以自己定制-->
-      <span class="post-count" style="font-size: 14px;color: grey">0字</span>
+      <span class="post-count" style="font-size: 14px;color: grey">2.7k字</span>
     </span>
   </span>
 
@@ -216,7 +225,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-hourglass-half"></i>
       <span class="post-meta-item-text" style="font-size: 14px;color: grey">  阅读时长:</span>
-      <span class="post-count" style="font-size: 14px;color: grey">1分钟</span>
+      <span class="post-count" style="font-size: 14px;color: grey">11分钟</span>
     </span>
   </span>
 </div>
@@ -236,7 +245,62 @@
 
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>在上一篇博客中，我们介绍了如何搭建自己的博客。今天我们接着说说如何进行博客的主题 (theme) 配置来美化自己的博客页面。首先可以在 <a target="_blank" rel="noopener" href="https://hexo.io/themes/">hexo 官网主题页 </a>寻找你喜欢的个性主题，根据官网使用文档说明修改相应的配置，达到自己想要的效果，例如设置字体、开启打赏功能、添加评论系统、数据统计等功能。设置不同的主题，博客的页面外观风格完全不同。我们推荐的主题是 litten 老哥制作的 <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia">yilia 主题</a>，可以点击 <a target="_blank" rel="noopener" href="http://litten.me/">litten 老哥的博客 </a>预览效果。</p>
+<a id="more"></a>
+<p><img src="https://upload-images.jianshu.io/upload_images/21989843-894fd5672afae4fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="yilia.png"></p>
+<h1 id="主题选择与下载安装"><a href="#主题选择与下载安装" class="headerlink" title="主题选择与下载安装"></a>主题选择与下载安装</h1><hr>
+<p>我们以 yilia 主题为例，说说如何下载安装主题。可以在 <a target="_blank" rel="noopener" href="https://hexo.io/themes/">hexo 主题官网 </a>中进行搜索相应主题，也可以打开 <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia">yilia 主题主页 </a>查看如何操作。如果不求甚解的话，简单，直接打开命令行，敲下面一行代码就完事了。<br><code>$ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code></p>
+<p>这样，yilia 主题就已经下载安装到本地博客文件夹下的 themes/yilia/ 文件夹下了。</p>
+<h1 id="主题使用"><a href="#主题使用" class="headerlink" title="主题使用"></a>主题使用</h1><hr>
+<p>修改 hexo 博客根目录下的配置文件 _config.yml 的 theme属性为 yilia 即可(注意冒号后面有一个空格)：<br><code>theme: yilia</code></p>
+<p>这样博客就已经配置为 yilia 主题了，可以在本地 <code>hexo s</code> 预览下效果。</p>
+<h1 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h1><hr>
+<h4 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h4><p>打开 yilia 主题的配置文件 <code>/themes/yilia/_config.yml</code>，有关主题的配置几乎都在这个文件里实现了，可以根据我的配置文件进行相应修改添加。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br></pre></td><td class="code"><pre><span class="line"># Header</span><br><span class="line">menu: # 菜单</span><br><span class="line">  主页: &#x2F;</span><br><span class="line">  技术: tags&#x2F;tech</span><br><span class="line">  随笔: tags&#x2F;something</span><br><span class="line">  相册: &#x2F;photos</span><br><span class="line"></span><br><span class="line">subtitle: # 博客名字下面的个性签名</span><br><span class="line"></span><br><span class="line"># SubNav</span><br><span class="line">subnav: # 页面左侧的社交图标</span><br><span class="line">  github: &quot;https:&#x2F;&#x2F;github.com&#x2F;你的Github&quot;</span><br><span class="line">  #weibo: &quot;微博主页链接&quot;</span><br><span class="line">  zhihu: &quot;知乎主页链接&quot;</span><br><span class="line">  #qq: &quot;#&quot;</span><br><span class="line">  weixin: &quot;微信二维码链接&quot;</span><br><span class="line">  #douban: &quot;豆瓣主页链接&quot;</span><br><span class="line">  #mail: &quot;邮箱&quot;</span><br><span class="line"># RSS 功能</span><br><span class="line">rss: &#x2F;atom.xml</span><br><span class="line"></span><br><span class="line"># 是否需要修改 root 路径</span><br><span class="line"># 如果您的网站存放在子目录中，例如 http:&#x2F;&#x2F;yoursite.com&#x2F;blog，</span><br><span class="line"># 请将您的 url 设为 http:&#x2F;&#x2F;yoursite.com&#x2F;blog 并把 root 设为 &#x2F;blog&#x2F;。</span><br><span class="line">root: &#x2F;</span><br><span class="line"></span><br><span class="line"># Content</span><br><span class="line">excerpt_link: more # md文章中插入 &lt;!-- more --&gt; 就会截断文章显示摘要，在对应位置显示&quot;more&quot;</span><br><span class="line"># 文章卡片右下角常驻链接，不需要请设置为false</span><br><span class="line">show_all_link: &#39;展开全文&#39;</span><br><span class="line"># 数学公式</span><br><span class="line">mathjax: false</span><br><span class="line"># 是否在新窗口打开链接</span><br><span class="line">open_in_new: true</span><br><span class="line"># fancybox</span><br><span class="line">fancybox: true</span><br><span class="line"></span><br><span class="line"># 打赏功能设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏</span><br><span class="line">reward_type: 2</span><br><span class="line">reward_wording: &#39;谢谢大佬&#39; # 打赏显示的字</span><br><span class="line"># 支付宝收款二维码图片地址，跟你设置头像的方式一样。比如：&#x2F;assets&#x2F;img&#x2F;alipay.jpg</span><br><span class="line">alipay: &#x2F;assets&#x2F;img&#x2F;alipay.png</span><br><span class="line"># 微信收款二维码图片地址</span><br><span class="line">weixin: &#x2F;assets&#x2F;img&#x2F;wxpay.png</span><br><span class="line"></span><br><span class="line"># 目录</span><br><span class="line"># 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录</span><br><span class="line">toc: 1</span><br><span class="line"># 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false</span><br><span class="line">toc_hide_index: true</span><br><span class="line"># 目录为空时的提示</span><br><span class="line">toc_empty_wording: &#39;目录，不存在的…&#39;</span><br><span class="line"></span><br><span class="line"># 是否有快速回到顶部的按钮</span><br><span class="line">top: true</span><br><span class="line"></span><br><span class="line"># Miscellaneous</span><br><span class="line">baidu_analytics: &#39;475fe3bc980b2bb65bae8bbf8de77994&#39; # 百度分析</span><br><span class="line">google_analytics: &#39;&#39;</span><br><span class="line">favicon: &#x2F;assets&#x2F;img&#x2F;myico.ico # 网页加载图标</span><br><span class="line"></span><br><span class="line">#你的头像</span><br><span class="line">avatar: &#x2F;assets&#x2F;img&#x2F;heichuan.png </span><br><span class="line"></span><br><span class="line">#是否开启分享</span><br><span class="line">share_jia: true</span><br><span class="line"></span><br><span class="line">#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment</span><br><span class="line">#不需要使用某项，直接设置值为false，或注释掉</span><br><span class="line">#具体请参考wiki：https:&#x2F;&#x2F;github.com&#x2F;litten&#x2F;hexo-theme-yilia&#x2F;wiki&#x2F;</span><br><span class="line"></span><br><span class="line"># 样式定制 - 一般不需要修改，除非有很强的定制欲望…</span><br><span class="line">style:</span><br><span class="line">  # 头像上面的背景颜色</span><br><span class="line">  #header: &#39;#4d4d4d&#39;</span><br><span class="line">  header: &#39;#00000&#39;</span><br><span class="line">  # 右滑板块背景</span><br><span class="line">  #slider: &#39;linear-gradient(200deg,#a0cfe4,#e8c37e)&#39;</span><br><span class="line">  slider: &#39;linear-gradient(200deg,#1E90FF,#B0C4DE)&#39;</span><br><span class="line"></span><br><span class="line"># slider的设置</span><br><span class="line">slider:</span><br><span class="line">  # 是否默认展开tags板块</span><br><span class="line">  showTags: true</span><br><span class="line"></span><br><span class="line"># 配置gitalk</span><br><span class="line">gitalk:</span><br><span class="line">  enable: true</span><br><span class="line">  owner: Username</span><br><span class="line">  repo: &#39;存储评论的 repo&#39;</span><br><span class="line">  clientID: &#39;&#39;</span><br><span class="line">  clientSecret: &#39;&#39;</span><br><span class="line">  admin: Username</span><br><span class="line">  distractionFreeMode: true</span><br><span class="line"></span><br><span class="line"># 智能菜单</span><br><span class="line"># 如不需要，将该对应项置为false</span><br><span class="line"># 比如</span><br><span class="line">#smart_menu:</span><br><span class="line">friends: true # 友链</span><br><span class="line">smart_menu:</span><br><span class="line">  innerArchive: &#39;所有文章&#39;</span><br><span class="line">  friends: &#39;友链&#39;</span><br><span class="line">  aboutme: &#39;关于我&#39;</span><br><span class="line"></span><br><span class="line">friends: # 友链</span><br><span class="line">  水恒涛的博客: http:&#x2F;&#x2F;hengtao.top&#x2F;</span><br><span class="line">  刘看山的博客: https:&#x2F;&#x2F;xiangyuliuseu.github.io&#x2F;</span><br><span class="line">  吕归尘的博客: https:&#x2F;&#x2F;guichenlv.github.io&#x2F;</span><br><span class="line"></span><br><span class="line"># aboutme: 你好&lt;br&gt;&lt;br&gt;这是我的博客&lt;br&gt;很高兴认识大家&lt;br&gt;&lt;br&gt;Le vent se lève,&lt;br&gt;il faut tenter de vivre</span><br></pre></td></tr></table></figure>
+
+<h4 id="修复失效的微信分享二维码"><a href="#修复失效的微信分享二维码" class="headerlink" title="修复失效的微信分享二维码"></a>修复失效的微信分享二维码</h4><p>由于 yilia 主题作者已经不维护了，微信分享的二维码已经过期了，因此需要进行相应的替换。打开 <code>themes\yilia\layout\_partial\post\share.ejs</code> 文件，把第49行中的 <code>//pan.baidu.com/share/qrcode?url=</code> 修改为: <code>//api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=</code></p>
+<p>同时，修改博客配置文件 <code>_config.yml</code> 的 <code>url</code> 为你的博客站点，如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">url: http:&#x2F;&#x2F;littledream.top </span><br></pre></td></tr></table></figure>
+
+<p>这样，点击文章页面右下角的分享按钮就可以将文章分享到微信了。</p>
+<h4 id="所有文章按钮功能启用"><a href="#所有文章按钮功能启用" class="headerlink" title="所有文章按钮功能启用"></a>所有文章按钮功能启用</h4><p>启用 yilia 主题后会发现点击“所有文章”按钮会出现错误，提示缺少模块。在博客根目录安装相应模块。<br><code>npm i hexo-generator-json-content --save</code><br>接着在博客配置文件 _config.yml 最下面加上以下代码即可。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># 缺失模块解决</span><br><span class="line">jsonContent:</span><br><span class="line">  meta: false</span><br><span class="line">  pages: false</span><br><span class="line">  posts:</span><br><span class="line">    title: true</span><br><span class="line">    date: true</span><br><span class="line">    path: true</span><br><span class="line">    text: false</span><br><span class="line">    raw: false</span><br><span class="line">    content: false</span><br><span class="line">    slug: false</span><br><span class="line">    updated: false</span><br><span class="line">    comments: false</span><br><span class="line">    link: false</span><br><span class="line">    permalink: false</span><br><span class="line">    excerpt: false</span><br><span class="line">    categories: false</span><br><span class="line">    tags: true</span><br></pre></td></tr></table></figure>
+
+<h4 id="添加图片资源文件夹"><a href="#添加图片资源文件夹" class="headerlink" title="添加图片资源文件夹"></a>添加图片资源文件夹</h4><p>之前提到的 头像、微信收款二维码、支付宝收款二维码、微信二维码、加载图标 ico 等图片源文件需要存放在对应的文件夹中。因此在博客根目录/source/下新建文件夹assets/img/文件夹，把之前提到的这些图片源文件存放在这个文件夹里即可。此时博客根目录下的 source 文件夹里有以下几个文件(夹)：</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/21989843-312d2153573cfc0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="source.png"></p>
+<p>其中，_drafts 为博客草稿文件夹， _posts 为博客文件夹， assets 为图片资源文件夹， CNAME 为之前添加的存放博客域名的文件，tags 为添加的标签分类（下一篇博客会说到）。</p>
+<h4 id="ico-图标的制作与设置"><a href="#ico-图标的制作与设置" class="headerlink" title="ico 图标的制作与设置"></a>ico 图标的制作与设置</h4><p>ico 图标是干什么的呢？咱们看看下面的这张图就知道这里的 ico 图标是干什么的了：</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/21989843-97afc980c96af234.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ico.png"></p>
+<h4 id="添加站点访问人数-次数统计"><a href="#添加站点访问人数-次数统计" class="headerlink" title="添加站点访问人数/次数统计"></a>添加站点访问人数/次数统计</h4><p>使用<a target="_blank" rel="noopener" href="http://busuanzi.ibruce.info/"> 不蒜子</a> 来统计并显示访问次数，只需要两行代码。首先在 yilia 主题的配置文件中定义不蒜子属性：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">busuanzi:</span><br><span class="line">    enable: true</span><br></pre></td></tr></table></figure>
+
+<p>再打开 <code>/themes/yilia/layout/_partial/footer.ejs</code>，在 <code>&lt;/footer&gt;</code> 上面添加以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (theme.busuanzi &amp;&amp; theme.busuanzi.enable)&#123; %&gt;</span><br><span class="line">      &lt;!-- 不蒜子统计 --&gt;</span><br><span class="line">      &lt;script async src&#x3D;&quot;&#x2F;&#x2F;busuanzi.ibruce.info&#x2F;busuanzi&#x2F;2.3&#x2F;busuanzi.pure.mini.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">      &lt;span id&#x3D;&quot;busuanzi_container_site_pv&quot; style&#x3D;&#39;display:none&#39;&gt;</span><br><span class="line">            本站总访问量&lt;span id&#x3D;&quot;busuanzi_value_site_pv&quot;&gt;&lt;&#x2F;span&gt;次</span><br><span class="line">      &lt;&#x2F;span&gt;</span><br><span class="line">      &lt;span class&#x3D;&quot;post-meta-divider&quot;&gt;|&lt;&#x2F;span&gt;</span><br><span class="line">      &lt;span id&#x3D;&quot;busuanzi_container_site_uv&quot; style&#x3D;&#39;display:none&#39;&gt;</span><br><span class="line">            本站总访客数&lt;span id&#x3D;&quot;busuanzi_value_site_uv&quot;&gt;&lt;&#x2F;span&gt;人次</span><br><span class="line">      &lt;&#x2F;span&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这样在网页底部就会显示站点访问次数与访问人数。</p>
+<h4 id="添加文章阅读次数统计"><a href="#添加文章阅读次数统计" class="headerlink" title="添加文章阅读次数统计"></a>添加文章阅读次数统计</h4><p>与上面一条相似的，可以使用不蒜子统计每一篇文章的阅读次数。打开 <code>/themes/yilia/layout/_partial/article.ejs</code>，在 <code>&lt;/header&gt;</code> 上面添加以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if ( !index )&#123; %&gt;</span><br><span class="line">  &lt;span class&#x3D;&quot;archive-article-date&quot;&gt;</span><br><span class="line">      阅读量：&lt;span id&#x3D;&quot;busuanzi_value_page_pv&quot;&gt;</span><br><span class="line">  &lt;&#x2F;span&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这样在文章详情页面上部就可以显示文章的阅读次数。</p>
+<h1 id="添加文章字数-阅读时间统计"><a href="#添加文章字数-阅读时间统计" class="headerlink" title="添加文章字数/阅读时间统计"></a>添加文章字数/阅读时间统计</h1><hr>
+<p>首先，安装字数统计插件，在博客根目录下 Git Bash Here:<br><code>npm i --save hexo-wordcount</code></p>
+<p>接着，在 <code>themes/yilia/layout/_partial/post/</code> 文件夹下新建 <code>word.ejs</code> 文件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;div style&#x3D;&quot;margin-top:10px;&quot;&gt;</span><br><span class="line">    &lt;span class&#x3D;&quot;post-time&quot;&gt;</span><br><span class="line">      &lt;span class&#x3D;&quot;post-meta-item-icon&quot;&gt;</span><br><span class="line">        &lt;i class&#x3D;&quot;fa fa-keyboard-o&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">        &lt;span class&#x3D;&quot;post-meta-item-text&quot; style&#x3D;&quot;font-size: 14px;color: grey&quot;&gt;  字数统计:&lt;&#x2F;span&gt;</span><br><span class="line">        &lt;!--这里样式可以自己定制--&gt;</span><br><span class="line">        &lt;span class&#x3D;&quot;post-count&quot; style&#x3D;&quot;font-size: 14px;color: grey&quot;&gt;&lt;%&#x3D; wordcount(post.content)%&gt;字&lt;&#x2F;span&gt;</span><br><span class="line">      &lt;&#x2F;span&gt;</span><br><span class="line">    &lt;&#x2F;span&gt;</span><br><span class="line"></span><br><span class="line">    &lt;span class&#x3D;&quot;post-time&quot;&gt;</span><br><span class="line">      &amp;nbsp; | &amp;nbsp;</span><br><span class="line">      &lt;span class&#x3D;&quot;post-meta-item-icon&quot;&gt;</span><br><span class="line">        &lt;i class&#x3D;&quot;fa fa-hourglass-half&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">        &lt;span class&#x3D;&quot;post-meta-item-text&quot; style&#x3D;&quot;font-size: 14px;color: grey&quot;&gt;  阅读时长:&lt;&#x2F;span&gt;</span><br><span class="line">        &lt;span class&#x3D;&quot;post-count&quot; style&#x3D;&quot;font-size: 14px;color: grey&quot;&gt;&lt;%&#x3D; min2read(post.content)%&gt;分钟&lt;&#x2F;span&gt;</span><br><span class="line">      &lt;&#x2F;span&gt;</span><br><span class="line">    &lt;&#x2F;span&gt;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后，打开 <code>themes/yilia/layout/_partial/article.ejs</code>，修改相应代码为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class&#x3D;&quot;article-inner&quot;&gt;</span><br><span class="line">  &lt;% if (post.link || post.title)&#123; %&gt;</span><br><span class="line">    &lt;header class&#x3D;&quot;article-header&quot;&gt;</span><br><span class="line">      &lt;%- partial(&#39;post&#x2F;title&#39;, &#123;class_name: &#39;article-title&#39;&#125;) %&gt;</span><br><span class="line">      &lt;% if (!post.noDate)&#123; %&gt;</span><br><span class="line">      &lt;%- partial(&#39;post&#x2F;date&#39;, &#123;class_name: &#39;archive-article-date&#39;, date_format: null&#125;) %&gt;</span><br><span class="line"></span><br><span class="line">      &lt;!-- 需要添加的位置 --&gt;</span><br><span class="line">      &lt;!-- 开始添加字数统计--&gt;</span><br><span class="line">      &lt;% if(theme.word_count &amp;&amp; !post.no_word_count)&#123;%&gt;</span><br><span class="line">        &lt;%- partial(&#39;post&#x2F;word&#39;) %&gt;</span><br><span class="line">        &lt;% &#125; %&gt;</span><br><span class="line">      &lt;!-- 添加完成 --&gt;</span><br><span class="line"></span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line"></span><br><span class="line">      &lt;% if ( !index )&#123; %&gt;</span><br><span class="line">        &lt;span class&#x3D;&quot;archive-article-date&quot;&gt;</span><br><span class="line">            阅读量：&lt;span id&#x3D;&quot;busuanzi_value_page_pv&quot;&gt;</span><br><span class="line">        &lt;&#x2F;span&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line"></span><br><span class="line">    &lt;&#x2F;header&gt;</span><br><span class="line">  &lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
+<p>最后，在yilia主题的配置文件 _config.yml 中添加技术属性：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 字数计数</span><br><span class="line">word_count: true</span><br></pre></td></tr></table></figure>
+
+<p>至此就完成了 yilia 主题的基本配置，如果还有一些其他的个性化要求，下一篇博客我们将接着介绍如何设置头像旋转、自定义左侧背景、添加 fork me on Github 图标、添加评论插件、更改社交软件图标等。</p>
+<h1 id="参考信息"><a href="#参考信息" class="headerlink" title="参考信息"></a>参考信息</h1><hr>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/fmk1023/article/details/100073217">Hexo下yilia主题添加字数统计和阅读时长功能</a></li>
+<li><a target="_blank" rel="noopener" href="http://litten.me/2014/08/31/hexo-theme-yilia/">Hexo主题Yilia</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/zzw1024/p/12051480.html">hexo博客yilia主题深度设置</a></li>
+</ul>
+
       
 
       
@@ -275,6 +339,25 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">tech</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -325,7 +408,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://littledream.top/tags/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://littledream.top/2020/08/27/myHexo2/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -337,6 +420,25 @@
 </article>
 
   
+<nav id="article-nav">
+  
+    <a href="/2020/08/27/myHexo3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Hexo + Github Page 搭建技术博客教程系列(三) 之 yilia 主题个性化
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/08/27/myHexo1/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hexo + Github Page 搭建技术博客教程系列(一) 之初步建站</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -351,9 +453,74 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E9%80%89%E6%8B%A9%E4%B8%8E%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85"><span class="toc-number">1.</span> <span class="toc-text">主题选择与下载安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8"><span class="toc-number">2.</span> <span class="toc-text">主题使用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="toc-number">3.</span> <span class="toc-text">主题配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE"><span class="toc-number">3.0.0.1.</span> <span class="toc-text">基本配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%AE%E5%A4%8D%E5%A4%B1%E6%95%88%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%88%86%E4%BA%AB%E4%BA%8C%E7%BB%B4%E7%A0%81"><span class="toc-number">3.0.0.2.</span> <span class="toc-text">修复失效的微信分享二维码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E6%8C%89%E9%92%AE%E5%8A%9F%E8%83%BD%E5%90%AF%E7%94%A8"><span class="toc-number">3.0.0.3.</span> <span class="toc-text">所有文章按钮功能启用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">3.0.0.4.</span> <span class="toc-text">添加图片资源文件夹</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ico-%E5%9B%BE%E6%A0%87%E7%9A%84%E5%88%B6%E4%BD%9C%E4%B8%8E%E8%AE%BE%E7%BD%AE"><span class="toc-number">3.0.0.5.</span> <span class="toc-text">ico 图标的制作与设置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E7%AB%99%E7%82%B9%E8%AE%BF%E9%97%AE%E4%BA%BA%E6%95%B0-%E6%AC%A1%E6%95%B0%E7%BB%9F%E8%AE%A1"><span class="toc-number">3.0.0.6.</span> <span class="toc-text">添加站点访问人数&#x2F;次数统计</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E6%AC%A1%E6%95%B0%E7%BB%9F%E8%AE%A1"><span class="toc-number">3.0.0.7.</span> <span class="toc-text">添加文章阅读次数统计</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E5%AD%97%E6%95%B0-%E9%98%85%E8%AF%BB%E6%97%B6%E9%97%B4%E7%BB%9F%E8%AE%A1"><span class="toc-number">4.</span> <span class="toc-text">添加文章字数&#x2F;阅读时间统计</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E4%BF%A1%E6%81%AF"><span class="toc-number">5.</span> <span class="toc-text">参考信息</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+    <div id="gitalk-container" style="padding: 0px 30px 0px 30px;"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+  if(true){
+    var gitalk = new Gitalk({
+      clientID: '844a8158af32b3e8a498',
+      clientSecret: '346bc121e2d6098ec7de4ab2ee2328bceb2dc39b',
+      repo: 'blogComments',
+      owner: 'GuichenLv',
+      admin: ['GuichenLv'],
+      id: 'Thu Aug 27 2020 19:30:58 GMT+0800',
+      distractionFreeMode: 'true'
+    })
+    gitalk.render('gitalk-container')
+  }
+</script>
+
+<div id="gitalk-container" style="padding: 0px 30px 0px 30px;"></div> 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+
+if(true){
+	var gitalk = new Gitalk({
+  	clientID: '',
+  	clientSecret: '',
+  	repo: 'blogComments',
+  	owner: '',
+  	admin: [''],
+  	id: 'Thu Aug 27 2020 19:30:58 GMT+0800',
+  	distractionFreeMode: 'true'
+})
+gitalk.render('gitalk-container') 
+}
+</script>
+  
+
+  
 
 
 
@@ -390,7 +557,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
