@@ -34,3 +34,7 @@
     box-shadow: inset 0 -1px 0 #3333sf;/*设置图像阴影效果*/
     -webkit-box-shadow: inset 0 -1px 0 #3333sf;
     }
+.icon-github:before{content:"\E721"}
+/* 之前的图标unicode，开头的$改成\,如 $E721 --> \E721 */
+#header .header-nav .social a.github{background:red;border:3px solid red}
+#header .header-nav .social a.github:hover{border:3px solid red}
